@@ -1,2 +1,2 @@
-# cppbusticket
-Online Bus Ticket Booking System
+# devops_bus_ticket
+Online Bus Ticketing System
