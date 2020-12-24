@@ -92,6 +92,9 @@ else{ ?>
 						<th scope="row">Ticket Number :</th>
 						<td><?php echo $row['ticket_number']?></td>
 					</tr>
+				
+				<tr><th scope="row">bus :</th>
+						<td><?php echo $row['buses']?></td></tr>					
 					<tr>
 						<th scope="row">Origin :</th>
 						<td><?php echo $row['origin']?></td>
