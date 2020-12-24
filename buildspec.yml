@@ -1,0 +1,28 @@
+version: 0.2 # Buildspec versions
+phases:
+  pre_build:
+    commands:
+      - echo "Enter in prebuild phase";
+  build:
+    commands:
+      - echo "Enter in build phase"
+  post_build:
+    commands:
+      - echo "Enter in post-build phase"
+artifacts:
+# files that we want our build to produce
+  files:
+    - database.php
+    - date_change.php
+    - index.php
+    - login.php
+    - myticket.php
+    - account.php
+    - register.php
+    - delete.php
+    - style.css
+    - user_img.png
+    - pencil.png
+    - bin.png
+    - upload_ticket.php
+    - feedback.php
