@@ -21,7 +21,7 @@ if (!empty($_POST)) {
 
   $response = array("error" => FALSE);
     
-    $query = "INSERT INTO `book_ticket` (`name`, `email`, `mobile_number`, `origin`, `destination`, `date`, `ticket_number`) VALUES (:name, :email, :mobile, :origin, :destination, :date, :ticket)";
+    $query = "INSERT INTO `book_ticket` (`name`, `email`, `mobile_number`, `origin`, `destination`, `date`, `ticket_number`, `buses`) VALUES (:name, :email, :mobile, :origin, :destination, :date, :ticket, :buses)";
     $query_params = array(
   ':name' => $_POST['name'],
         ':email' => $_COOKIE['email'],
@@ -29,7 +29,8 @@ if (!empty($_POST)) {
         ':origin' => $_POST['origin'],
         ':destination' => $_POST['destination'],
         ':date' => $_POST['date'],
-  ':ticket' => random_int(100000000, 999999999),   
+  ':ticket' => random_int(100000000, 999999999), 
+      ':buses' => $_POST['buses'],
     );
   
     try {
@@ -111,7 +112,17 @@ foreach ($keys as $key => $vals) {
             <input type="text" name="name" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" /><div class="validation"></div>
             <input type="text" name="mobile_number" id="mobile_number" placeholder="Enter mobile number" data-rule="minlen:4" data-msg="Please enter at least 4 chars" /><div class="validation"></div>
             
-            <label for="Origin" style="color:black; margin-top: 4px" ><strong>Origin</strong></label>
+             <label for="buses" style="color:black; margin-top: 4px" ><strong>Buses</strong></label>
+        <select id="Origin" name="buses" size="1.2" class ="text-size">
+          <option value="Click to select bus">Click to select bus</option>
+          <option value="NCI Bus">NCI Bus</option>
+          <option value="Londen Hills">Londen Hills</option>
+          <option value="Patricks Travller">Patricks Travller</option>
+          <option value="Trinity Bus">Trinity Bus</option>
+          <option value="Dublin Bus">Dublin Bus</option>
+        </select>
+              
+              <label for="Origin" style="color:black; margin-top: 4px" ><strong>Origin</strong></label>
         <select id="Origin" name="origin" size="1.2" class ="text-size">
           <option value="Click to select your Origin">Click to select your Origin</option>
           <option value="Parnell Square Area">Parnell Square Area</option>
