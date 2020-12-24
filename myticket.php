@@ -93,7 +93,8 @@ else{ ?>
 						<td><?php echo $row['ticket_number']?></td>
 					</tr>
 				
-				<tr><th scope="row">bus :</th>
+					<tr>	
+					<th scope="row">Bus :</th>
 						<td><?php echo $row['buses']?></td></tr>					
 					<tr>
 						<th scope="row">Origin :</th>
