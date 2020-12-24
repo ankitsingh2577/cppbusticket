@@ -82,10 +82,7 @@ else{ ?>
 				  <td><?php echo $row['mobile_number']?></td>
 				</tr>
     </table> 
-    <?php }
-}
-?>
-<div>\n\n\n\\n</div>
+		<div>\n\n\n\\n</div>
     <a type="submit" href="https://bus-ticket.s3.amazonaws.com/%24tickets.pdf" id="upticket" style="background: #1b083d; color: #ffffff;
   border: none;
   margin-top: 20px; 
@@ -98,6 +95,10 @@ else{ ?>
   box-shadow: 1px 2px 5px #1b1b1b; ">Download Uploadad Ticket</a> 
     </div></div> 
    
+    <?php }
+}
+?>
+
 </body>
 	<script>
   function logout_cookie(){
