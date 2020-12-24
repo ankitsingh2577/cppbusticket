@@ -97,7 +97,7 @@ else{ ?>
   margin-left: 180px;
   box-shadow: 1px 2px 5px #1b1b1b; ">Download Uploadad Ticket</a> 
     </div></div> 
-    
+   
 </body>
 	<script>
   function logout_cookie(){
