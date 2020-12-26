@@ -37,10 +37,11 @@ if (!empty($_POST)) {
         setcookie("mobile", "$mobile", time()+30*24*60*60, "/");
         setcookie("email", "$email", time()+30*24*60*60, "/");
         session_start();
-        header("Location: index.php");      
+        header("Location: home.php");      
     }
   else{
       echo "Invalid password";
+	 header("Location: index.php");   
     }
   }
 else{?>
