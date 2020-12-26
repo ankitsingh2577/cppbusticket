@@ -20,7 +20,7 @@ try{
      // Creating a new connection.
     // Replace your-hostname, your-db, your-username, your-password according to your database
     $link = new \PDO(   'mysql:host=busticketdb.ckdlhcaxf9fi.us-east-1.rds.amazonaws.com;dbname=busticket;charset=utf8mb4', //'mysql:host=localhost;dbname=canvasjs_db;charset=utf8mb4',
-                        'busticket', //'root',
+                        '', //'root',
                         'x19205121', //'',
                         array(
                             \PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
