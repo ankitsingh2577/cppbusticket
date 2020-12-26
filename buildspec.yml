@@ -26,3 +26,4 @@ artifacts:
     - bin.png
     - upload_ticket.php
     - feedback.php
+    - book.php
