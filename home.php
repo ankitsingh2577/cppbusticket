@@ -11,7 +11,7 @@ $mobile=$_COOKIE["mobile"];
 //retrive name & email from cookies
 if($_COOKIE['email']==""){
 
-  header("Location: login.php");
+  header("Location: index.php");
 }
 //If cookies is present then page will load
 else{
@@ -74,7 +74,7 @@ if (!empty($_POST)) {
         
     </div>
      <div><a class="logout" href="login.php" onclick="logout_cookie()">Logout</a></div>
-<div><a class="home" style="text-decoration:none" href="index.php">Home</a></div>
+<div><a class="home" style="text-decoration:none" href="home.php">Home</a></div>
 <div><a class="book" style="text-decoration:none" href="book.php">Book Ticket</a></div>
 <div><a class="ticket" style="text-decoration:none" href="myticket.php">My Ticket</a></div>
 <div><a class="my-account" style="text-decoration:none" href="account.php">Account</a></div>
