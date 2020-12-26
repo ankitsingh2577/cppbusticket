@@ -9,7 +9,7 @@ if (!empty($_POST)) {
   $response = array("error" => FALSE);
     $email = $_POST['email'];
     
-    $query = "INSERT INTO Users (name, email, mobile_number, password) VALUES (:name, :email, :mobile, :password)";
+    $query = "INSERT INTO users (name, email, mobile_number, password) VALUES (:name, :email, :mobile, :password)";
     $query_params = array(
         ':name' => $_POST['name'],
         ':email' => $_POST['email'],
