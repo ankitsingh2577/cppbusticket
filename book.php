@@ -118,7 +118,7 @@ foreach ($keys as $key => $vals) {
           <option value="Click to select bus">Click to select bus</option>
           <option value="NCI Bus">NCI Bus</option>
           <option value="Londen Hills">Londen Hills</option>
-          <option value="Patricks Travller">Patricks Travller</option>
+          <option value="Patricks Travller">Patrick's Traveller</option>
           <option value="Trinity Bus">Trinity Bus</option>
           <option value="Dublin Bus">Dublin Bus</option>
         </select>
