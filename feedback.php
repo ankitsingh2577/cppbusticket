@@ -9,7 +9,7 @@ $email=$_COOKIE["email"];
 
 // If cookies is empty them redirect to login page
 if($email==""){
-  header("Location: login.php");
+  header("Location: index.php");
 }
 //If cookies is present then page will load
 else{
@@ -42,7 +42,7 @@ if (!empty($_POST)) {
     if($result){
         echo '<script type="text/javascript">'; 
         echo 'alert("Your Feedback has been recorded, Thankyou!");'; 
-        echo 'window.location.href = "index.php";';
+        echo 'window.location.href = "home.php";';
         echo '</script>';
         }
       }?>
