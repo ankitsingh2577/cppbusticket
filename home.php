@@ -95,7 +95,9 @@ chart.render();
     <div><p class="book-ticket">Buses Rating</p></div>
     <div class="home-container">
         <div class="ticket-container">
-          <div id="chartContainer" style="height: 470px; width: 100%;"></div>
+          <div id="chartContainer" style="height: 450px; width: 100%;"></div>
+          <list style="text-align: center; font-weight: bold; color: #000000; font-family: sans-serif;"> &thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;Dublin Bus &thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;Londen Hills&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp; 
+            NCI Bus &thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;&thinsp;Trinity Bus &thinsp;&thinsp;&thinsp;Patrick's Traveller </list>
 <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 <script>
   function logout_cookie(){
