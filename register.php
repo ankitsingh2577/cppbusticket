@@ -14,7 +14,7 @@ if (!empty($_POST)) {
         ':name' => $_POST['name'],
         ':email' => $_POST['email'],
 	':mobile' => $_POST['mobile_number'],   
-        ':password' => hash("sha512",$_POST['password']),
+        ':password' => hash("sha512",$_POST['password'])
     );
     try {
         $stmt = $database->prepare($query);
