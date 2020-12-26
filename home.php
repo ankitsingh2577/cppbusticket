@@ -92,7 +92,7 @@ chart.render();
 <div><a class="feedback" style="text-decoration:none" href="feedback.php">Feedback</a></div>
     
     <div class="tab-header"><h1 style="text-align: center; font-weight: bold; color: #000000; font-family: sans-serif; margin-top: -46px";>! Welcome to Bus Ticket Booking System !</h1></div>
-    <div><p class="book-ticket">Buse's Rating</p></div>
+    <div><p class="book-ticket">Bus Rating</p></div>
     <div class="home-container">
         <div class="ticket-container">
           <div id="chartContainer" style="height: 450px; width: 100%;"></div>
