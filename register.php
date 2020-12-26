@@ -20,7 +20,6 @@ if (!empty($_POST)) {
         $stmt = $database->prepare($query);
         $result = $stmt->execute($query_params);
 }
-
     catch (PDOException $ex) {
         $response["error"] = true;
         $response["message"] = "Database Error1. Please Try Again!";
