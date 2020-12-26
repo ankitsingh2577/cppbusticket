@@ -211,9 +211,9 @@ button[type="submit"]{
 .my-account:hover {
     color: #fff999;
   transform: scale(1.5);} 
-/*.book:hover {
+.book:hover {
     color: #fff999;
-  transform: scale(1.5);} */
+  transform: scale(1.5);}
 .feedback:hover {
     color: #fff999;
   transform: scale(1.5);}    
@@ -239,10 +239,20 @@ button[type="submit"]{
       
     cursor: pointer;}
 
-.ticket{
+.book{
     color: #000000;
     font-weight: bold;
     margin-top: 165px;
+    position: absolute;
+    left: 86% ;
+    font-size:18pt;
+      
+    cursor: pointer;}    
+    
+.ticket{
+    color: #000000;
+    font-weight: bold;
+    margin-top: 210px;
     position: absolute;
     left: 86% ;
     font-size:18pt;
@@ -252,7 +262,7 @@ button[type="submit"]{
 .my-account{
     color: #000000;
     font-weight: bold;
-    margin-top: 210px;
+    margin-top: 255px;
     position: absolute;
     left: 86% ;
     font-size:18pt;
@@ -272,13 +282,14 @@ button[type="submit"]{
 .feedback{
     color: #000000;
     font-weight: bold;
-    margin-top: 255px;
+    margin-top: 300px;
     position: absolute;
     left: 86% ;
     font-size:18pt;
    
     cursor: pointer;
 }
+
 
     
 .redirect-link{
