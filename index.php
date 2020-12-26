@@ -40,8 +40,7 @@ if (!empty($_POST)) {
         header("Location: home.php");      
     }
   else{
-      echo "Invalid password";
-	 header("Location: index.php");   
+      echo "Invalid password"; 
     }
   }
 else{?>
