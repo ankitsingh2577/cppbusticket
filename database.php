@@ -2,14 +2,13 @@
 $password="x19205121";
 $host = "busticketdb.ckdlhcaxf9fi.us-east-1.rds.amazonaws.com"; // AWS RDS-mysql database endpoint
 $dbname = "busticket";
-$username = "busticket";
  
 // setting connection charset
 $options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'); 
  
     try { 
         // Connection Request to mysql database
-        $database = new PDO("mysql:host={$host};dbname={$dbname};charset=utf8", "busticket", $username, $password, $options); 
+        $database = new PDO("mysql:host={$host};dbname={$dbname};charset=utf8", "busticket", $password, $options); 
         
     } catch(PDOException $ex) { 
 
