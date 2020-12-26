@@ -46,7 +46,7 @@ if (!empty($_POST)) {
     if($result){
         echo '<script type="text/javascript">'; 
         echo 'alert("Ticket Booked Sucessfully");'; 
-        echo 'window.location.href = "index.php";';
+        echo 'window.location.href = "home.php";';
         echo '</script>';
         
         }
