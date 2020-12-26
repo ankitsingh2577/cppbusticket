@@ -15,7 +15,7 @@ artifacts:
     - database.php
     - date_change.php
     - index.php
-    - login.php
+    - home.php
     - myticket.php
     - account.php
     - register.php
