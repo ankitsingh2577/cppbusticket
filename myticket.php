@@ -9,7 +9,7 @@ $email=$_COOKIE["email"];
 
 // If cookies is empty them redirect to login page
 if($email==""){
-  header("Location: login.php");
+  header("Location: index.php");
 }
 //If cookies is present then page will load
 else{ ?>
