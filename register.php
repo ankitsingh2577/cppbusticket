@@ -28,7 +28,7 @@ if (!empty($_POST)) {
         if($result){
             echo '<script type="text/javascript">'; 
             echo 'alert("Registered successfully");'; 
-            echo 'window.location.href = "login.php";';
+            echo 'window.location.href = "index.php";';
             echo '</script>';
         }
 }
@@ -81,7 +81,7 @@ if (!empty($_POST)) {
             
                      <input type="password" name="password" id="password" placeholder="Enter Your Password" data-rule="password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#\$%\^&\*]).{8,}"/>
                 
-                     <a class="redirect-link" href="login.php">Sign In</a>
+                     <a class="redirect-link" href="index.php">Sign In</a>
                       <button type="submit" method="post"> Sign-Up
                          </button>
     </div>
