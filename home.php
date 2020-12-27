@@ -8,7 +8,7 @@ $email=$_COOKIE['email'];
 
 //retrive name & email from cookies
 if($_COOKIE['email']==""){
- alert("no cookie found");
+ 
   header("Location: index.php");
 }
 //If cookies is present then page will load
