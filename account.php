@@ -84,7 +84,7 @@ else{ ?>
 				</tr>
     </table> 
 		<div>\n\n\n\\n</div>
-    <a type="submit" href="https://bus-ticket.s3.amazonaws.com/%24tickets.pdf" id="upticket" style="background: #1b083d; color: #ffffff;
+    <a type="submit" href="https://bus-ticket.s3.amazonaws.com/myticket.pdf" id="upticket" style="background: #1b083d; color: #ffffff;
   border: none;
   margin-top: 20px; 
   border-radius: 4px;
