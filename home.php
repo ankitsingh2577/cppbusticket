@@ -91,7 +91,7 @@ chart.render();
 <div><a class="my-account" style="text-decoration:none" href="account.php">Account</a></div>
 <div><a class="feedback" style="text-decoration:none" href="feedback.php">Feedback</a></div>
     
-    <div class="tab-header"><h1 style="text-align: center; font-weight: bold; color: #000000; font-family: sans-serif; margin-top: -46px";>! Welcome to Bus Ticket Booking System !</h1></div>
+    <div class="tab-header"><h1 style="text-align: center; font-weight: bold; color: #000000; font-family: sans-serif; margin-top: -46px";>! Welcome to Ankit Bus Ticket Booking System !</h1></div>
     <div><p class="book-ticket">Bus Rating</p></div>
     <div class="home-container">
         <div class="ticket-container">
